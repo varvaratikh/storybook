@@ -14,11 +14,7 @@
 
 body {
   min-width: 320px;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
   overflow-x: hidden;
-  background: var(--light_grey-color);
 }
 
 .app {
@@ -33,10 +29,8 @@ body {
 
 main {
   min-height: 100vh;
-  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
 }
 
 input {
@@ -103,10 +97,6 @@ p {
   border-radius: 10px;
 }
 
-//svg {
-//  fill: var(--icon-collor);
-//}
-
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -124,91 +114,6 @@ p {
 .container {
   margin: 0 auto;
   max-width: 1240px;
-}
-
-@media (max-width: 1240px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .container {
-    max-width: 952px;
-  }
-}
-
-@media (max-width: 952px) {
-  .container {
-    max-width: 904px;
-  }
-}
-
-@media (max-width: 904px) {
-  .container {
-    max-width: 856px;
-  }
-}
-
-@media (max-width: 856px) {
-  .container {
-    max-width: 808px;
-  }
-}
-
-@media (max-width: 808px) {
-  .container {
-    max-width: 760px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 735px;
-  }
-}
-
-@media (max-width: 750px) {
-  .container {
-    max-width: 700px;
-  }
-}
-
-@media (max-width: 700px) {
-  .container {
-    max-width: 600px;
-  }
-}
-
-
-@media (max-width: 610px) {
-  .container {
-    max-width: 500px;
-  }
-}
-
-@media (max-width: 510px) {
-  .container {
-    max-width: 400px;
-  }
-}
-
-@media (max-width: 410px) {
-  .container {
-    max-width: 370px;
-  }
-}
-
-@media (max-width: 375px) {
-  .container {
-    max-width: 344px;
-  }
-}
-
-@media (max-width: 350px) {
-  .container {
-    max-width: 320px;
-  }
 }
 
 input[type=number]::-webkit-outer-spin-button,

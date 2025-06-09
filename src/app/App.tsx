@@ -1,10 +1,10 @@
 import './styles/global.scss';
-import { Landing } from '@/pages';
+import {Storybook} from "@/pages";
 
 export const App = () => {
   return (
     <div>
-      <Landing />
+        <Storybook />
     </div>
   );
 };
