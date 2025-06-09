@@ -1,0 +1,1 @@
+export { Landing } from './landing/ui/Landing'
