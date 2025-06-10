@@ -1,3 +1,11 @@
-import styles from "@pages/storybook/ui/style.module.scss";
+import style from './button.module.scss';
 
-export const Button = () => <button className={styles.demo}>Кнопка</button>;
+interface ButtonProps {
+    text: string;
+}
+
+export const Button = ({text} : ButtonProps) => {
+    return(
+        <button className={style.button} onClick={() => console.log('Press')}>{text}</button>
+    )
+}

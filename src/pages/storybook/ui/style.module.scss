@@ -4,7 +4,6 @@
   align-items: center;
   gap: 10rem;
   margin: 0 auto;
-
   background: var(--back-color);
   width: 100vw;
   height: 100vh;
@@ -56,20 +55,21 @@
 }
 
 .preview {
-  padding: 12px;
-  border: 1px dashed #ccc;
-  border-radius: 6px;
-  background: #fafafa;
+  padding: 2rem;
+  border: 1px dashed var(--dropdown);
+  border-radius: 2rem;
+  background: #dce6ff;
   width: 100%;
-}
-
-.demo {
-  font-size: 16px;
-  padding: 8px;
-}
-
-.toggle {
-  display: flex;
   align-items: center;
-  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  height: 80vh;
+}
+
+.demo{
+  font-family: "Apple Braille", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--dropdown-text);
 }

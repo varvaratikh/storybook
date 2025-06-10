@@ -36,7 +36,7 @@ export const Storybook = () => {
 
             {selected && (
                 <div className={styles.preview}>
-                    <h4>Превью компонента:</h4>
+                    <h4 className={styles.demo}>Превью компонента:</h4>
                     {COMPONENTS[selected]}
                 </div>
             )}
