@@ -1,3 +1,3 @@
-import styles from "@pages/storybook/ui/style.module.scss";
+import styles from "./input.module.scss";
 
-export const Input= () => <input className={styles.demo} placeholder="Инпут" />;
+export const Input = () => <input className={styles.input} placeholder="Введите кодовое слов"/>
