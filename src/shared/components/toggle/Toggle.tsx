@@ -1,12 +1,21 @@
+import styles from "./toggle.module.scss";
+
+import { Moon, Sun } from 'lucide-react';
 import {useState} from "react";
-import styles from "@pages/storybook/ui/style.module.scss";
 
 export const Toggle = () => {
-    const [on, setOn] = useState(false);
+    const [checked, setChecked] = useState(false);
+
     return (
-        <label className={styles.toggle}>
-            <input type="checkbox" checked={on} onChange={() => setOn(!on)} />
-            <span>{on ? "Включено" : "Выключено"}</span>
-        </label>
+        <button
+            className={`${styles.switch} ${checked ? styles.checked : ''}`}
+            onClick={() => setChecked(!checked)}
+            aria-label="Toggle switch"
+        >
+              <span className={styles.icon}>
+                {checked ? <Sun size={16} /> : <Moon size={16} />}
+              </span>
+            <span className={styles.circle} />
+        </button>
     );
 };
