@@ -1,0 +1,39 @@
+.checkboxWrapper {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--button-hover);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  margin-right: 12px;
+  background-color: rgba(249, 141, 255, 0.45);
+}
+
+.checked {
+  background-color: var(--button);
+  border-color: var(--button-hover);
+}
+
+.checkmark {
+  width: 26px;
+  height: 26px;
+  stroke: greenyellow;
+  stroke-width: 3;
+  fill: none;
+}
+
+.label {
+  font-size: 1.5rem;
+  color: var(--button-hover);
+  font-family: "Apple Braille", sans-serif;
+  font-weight: 500;
+}
