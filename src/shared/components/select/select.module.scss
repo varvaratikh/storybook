@@ -1,0 +1,70 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 18rem;
+}
+
+.dropdownButton {
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: left;
+  background: rgba(249, 141, 255, 0.45);
+  border: 2px solid var(--button-hover);
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-family: "Apple Braille", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: greenyellow;
+}
+
+.dropdownList {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 100%;
+  background: rgba(249, 141, 255, 0.45);
+  border: 2px solid var(--button-hover);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 0.8rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+}
+
+.dropdownList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dropdownList::-webkit-scrollbar-thumb {
+  background-color: greenyellow;
+  border-radius: 15px;
+}
+
+.dropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: "Apple Braille", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: greenyellow;
+}
+
+.dropdownItem:hover,
+.highlighted {
+  background-color: var(--button-hover);
+}
+
+.dropdownListOpen {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
+}

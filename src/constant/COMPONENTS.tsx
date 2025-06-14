@@ -1,4 +1,4 @@
-import {Button, Checkbox, Input, Toggle} from "@shared/components";
+import {Button, Checkbox, Input, Dropdown, Toggle} from "@shared/components";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня"/>,
@@ -7,11 +7,23 @@ export const COMPONENTS = {
     флажок: <div>
         <Checkbox/><br/><br/>
         <Checkbox label="Флажочек"/>
-    </div> ,
+    </div>,
+    выпадающий_список: <Dropdown
+        options={[
+            { value: 'apple', label: 'Яблоко' },
+            { value: 'banana', label: 'Банан' },
+            { value: 'orange', label: 'Апельсин' },
+            { value: 'kiwi', label: 'Киви' },
+            { value: 'kiwi', label: 'Киви' },
+            { value: 'kiwi', label: 'Киви' },
+            { value: 'kiwi', label: 'Киви' },
+            { value: 'kiwi', label: 'Киви' },
+        ]}
+        onSelect={(option) => console.log('Вы выбрали:', option)}
+        placeholder="Выберите фрукт"
+    />,
 };
 
-//Checkbox (Флажок)
-//Select (Выпадающий список)
 //Textarea Многострочное поле ввода текста.
 //Tabs (Вкладки)
 //Breadcrumbs (Хлебные крошки)
