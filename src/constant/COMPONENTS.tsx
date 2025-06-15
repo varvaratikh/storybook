@@ -1,4 +1,4 @@
-import {Button, Checkbox, Input, Dropdown, Toggle} from "@shared/components";
+import {Button, Checkbox, Input, Dropdown, Toggle, Textarea} from "@shared/components";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня"/>,
@@ -22,6 +22,8 @@ export const COMPONENTS = {
         onSelect={(option) => console.log('Вы выбрали:', option)}
         placeholder="Выберите фрукт"
     />,
+    многострочное_поле_ввода_текста: <Textarea />
+
 };
 
 //Textarea Многострочное поле ввода текста.
