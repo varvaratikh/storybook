@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs } from "@shared/components";
+import {Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs, Breadcrumbs} from "@shared/components";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -33,6 +33,7 @@ export const COMPONENTS = {
             { label: 'Контакты', content: <div>Контактная информация</div> },
         ]}
     />,
+    хлебные_крошки: <Breadcrumbs />
 };
 
 //Breadcrumbs (Хлебные крошки)
