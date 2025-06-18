@@ -1,5 +1,6 @@
 import React from "react";
-import {Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs, Breadcrumbs} from "@shared/components";
+import {Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs, Breadcrumbs, Pagination} from "@shared/components";
+import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -33,11 +34,10 @@ export const COMPONENTS = {
             { label: 'Контакты', content: <div>Контактная информация</div> },
         ]}
     />,
-    хлебные_крошки: <Breadcrumbs />
+    хлебные_крошки: <Breadcrumbs />,
+    пагинация: <PaginationDemo />
 };
 
-//Breadcrumbs (Хлебные крошки)
-//Pagination (Пагинация)
 //Alert / Notification (Оповещение)
 //Tooltip (Подсказка)
 //Modal (Модальное окно)

@@ -1,0 +1,39 @@
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0;
+  font-family: "Apple Braille", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  user-select: none;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--dropdown-text);
+  padding: 4px 10px;
+  transition: color 0.2s ease, transform 0.2s ease;
+
+  &:hover:not(:disabled) {
+    color: var(--dropdown-hover);
+    transform: scale(1.15);
+  }
+
+  &:disabled {
+    color: #b3bdc9;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
+
+.navigation {
+  font-weight: 500;
+  color: var(--button-hover);
+  min-width: 60px;
+  text-align: center;
+}
