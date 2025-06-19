@@ -7,3 +7,4 @@ export { Textarea } from './textarea/Textarea.tsx';
 export { Tabs } from './tabs/Tabs.tsx';
 export { Breadcrumbs } from './breadcrumbs/Breadcrumbs.tsx';
 export { Pagination } from './pagination/Pagination.tsx';
+export { Alert } from './alert/Alert.tsx';

@@ -1,6 +1,7 @@
 import React from "react";
 import {Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs, Breadcrumbs, Pagination} from "@shared/components";
 import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
+import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -35,7 +36,8 @@ export const COMPONENTS = {
         ]}
     />,
     хлебные_крошки: <Breadcrumbs />,
-    пагинация: <PaginationDemo />
+    пагинация: <PaginationDemo />,
+    оповещение: <AlertDemo />
 };
 
 //Alert / Notification (Оповещение)
