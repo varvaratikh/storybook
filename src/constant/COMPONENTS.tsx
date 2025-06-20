@@ -1,5 +1,16 @@
 import React from "react";
-import {Button, Checkbox, Input, Dropdown, Toggle, Textarea, Tabs, Breadcrumbs, Pagination} from "@shared/components";
+import {
+    Button,
+    Checkbox,
+    Input,
+    Dropdown,
+    Toggle,
+    Textarea,
+    Tabs,
+    Breadcrumbs,
+    Pagination,
+    Tooltip
+} from "@shared/components";
 import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
 
@@ -37,10 +48,12 @@ export const COMPONENTS = {
     />,
     хлебные_крошки: <Breadcrumbs />,
     пагинация: <PaginationDemo />,
-    оповещение: <AlertDemo />
+    оповещение: <AlertDemo />,
+    подсказка: <Tooltip text="Это подсказка" position="right">
+        <Button text="Наведи на меня" />
+    </Tooltip>
 };
 
-//Alert / Notification (Оповещение)
 //Tooltip (Подсказка)
 //Modal (Модальное окно)
 //Slider (Слайдер)
