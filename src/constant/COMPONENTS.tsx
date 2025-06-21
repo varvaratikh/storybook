@@ -51,10 +51,10 @@ export const COMPONENTS = {
     оповещение: <AlertDemo />,
     подсказка: <Tooltip text="Это подсказка" position="right">
         <Button text="Наведи на меня" />
-    </Tooltip>
+    </Tooltip>,
+    модальное_окно:
 };
 
-//Tooltip (Подсказка)
 //Modal (Модальное окно)
 //Slider (Слайдер)
 //Switch (Тумблер)
