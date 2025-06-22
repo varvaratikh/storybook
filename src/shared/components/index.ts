@@ -9,3 +9,4 @@ export { Breadcrumbs } from './breadcrumbs/Breadcrumbs.tsx';
 export { Pagination } from './pagination/Pagination.tsx';
 export { Alert } from './alert/Alert.tsx';
 export { Tooltip } from './tooltip/Tooltip.tsx';
+export { Modal } from './modal/Modal.tsx';

@@ -1,4 +1,3 @@
-import React from "react";
 import {
     Button,
     Checkbox,
@@ -8,11 +7,11 @@ import {
     Textarea,
     Tabs,
     Breadcrumbs,
-    Pagination,
     Tooltip
 } from "@shared/components";
 import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
+import {ModalDemo} from "@shared/components/modal/ModalDemo.tsx";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -52,10 +51,9 @@ export const COMPONENTS = {
     подсказка: <Tooltip text="Это подсказка" position="right">
         <Button text="Наведи на меня" />
     </Tooltip>,
-    модальное_окно:
+    модальное_окно: <ModalDemo />
 };
 
-//Modal (Модальное окно)
 //Slider (Слайдер)
 //Switch (Тумблер)
 //Stepper / ProgressBar
