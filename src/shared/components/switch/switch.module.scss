@@ -1,0 +1,41 @@
+.switch {
+  width: 42px;
+  height: 24px;
+  background-color: var(--back-color);
+  border-radius: 999px;
+  position: relative;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.5);
+  }
+}
+
+.thumb {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.checked {
+  background-color: var(--dropdown-text);
+
+  .thumb {
+    transform: translateX(18px);
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

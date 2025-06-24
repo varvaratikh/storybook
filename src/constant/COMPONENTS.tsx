@@ -13,6 +13,7 @@ import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
 import {ModalDemo} from "@shared/components/modal/ModalDemo.tsx";
 import {SliderDemo} from "@shared/components/slider/SliderDemo.tsx";
+import {SwitchDemo} from "@shared/components/switch/SwitchDemo.tsx";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -53,7 +54,8 @@ export const COMPONENTS = {
         <Button text="Наведи на меня" />
     </Tooltip>,
     модальное_окно: <ModalDemo />,
-    слайдер: <SliderDemo />
+    слайдер: <SliderDemo />,
+    тумблер: <SwitchDemo />
 
 };
 
