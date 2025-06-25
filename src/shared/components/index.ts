@@ -12,3 +12,6 @@ export { Tooltip } from './tooltip/Tooltip.tsx';
 export { Modal } from './modal/Modal.tsx';
 export { Slider } from './slider/Slider.tsx';
 export { Switch } from './switch/Switch.tsx';
+export { ProgressBar } from './progressBar/ProgressBar.tsx';
+export { ButtonControlledProgressBar } from './progressBar/ButtonControlledProgressBar.tsx';
+export { ColorChangingProgressBar } from './progressBar/ColorChangingProgressBar.tsx';

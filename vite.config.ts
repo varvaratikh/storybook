@@ -12,6 +12,7 @@ export default defineConfig({
       '@shared': path.resolve(__dirname, './src/shared'),
       '@widgets': path.resolve(__dirname, './src/widgets'),
       '@features': path.resolve(__dirname, './src/features'),
+      crypto: path.resolve('node_modules/crypto-browserify'),
     },
   },
   plugins: [react(), svgr()],

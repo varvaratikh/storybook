@@ -14,6 +14,7 @@ import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
 import {ModalDemo} from "@shared/components/modal/ModalDemo.tsx";
 import {SliderDemo} from "@shared/components/slider/SliderDemo.tsx";
 import {SwitchDemo} from "@shared/components/switch/SwitchDemo.tsx";
+import {ProgressBarDemo} from "@shared/components/progressBar/ProgressBarDemo.tsx";
 
 export const COMPONENTS = {
     кнопка: <Button text="Нажми на меня" />,
@@ -55,11 +56,10 @@ export const COMPONENTS = {
     </Tooltip>,
     модальное_окно: <ModalDemo />,
     слайдер: <SliderDemo />,
-    тумблер: <SwitchDemo />
-
+    тумблер: <SwitchDemo />,
+    прогрес: <ProgressBarDemo />
 };
 
-//Switch (Тумблер)
 //Stepper / ProgressBar
 //Avatar (Аватар)
 //Badge (Бейдж)
