@@ -7,7 +7,7 @@ import {
     Textarea,
     Tabs,
     Breadcrumbs,
-    Tooltip, Avatar
+    Tooltip, Avatar, Badge
 } from "@shared/components";
 import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
@@ -58,10 +58,10 @@ export const COMPONENTS = {
     слайдер: <SliderDemo />,
     тумблер: <SwitchDemo />,
     прогрес: <ProgressBarDemo />,
-    аватар: <Avatar />
+    аватар: <Avatar />,
+    бейдж: <Badge />
 };
 
-//Avatar (Аватар)
 //Badge (Бейдж)
 //Chip (Метка)
 //Card (Карточка)
