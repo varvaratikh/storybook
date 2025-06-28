@@ -59,10 +59,13 @@ export const COMPONENTS = {
     тумблер: <SwitchDemo />,
     прогрес: <ProgressBarDemo />,
     аватар: <Avatar />,
-    бейдж: <Badge />
+    бейдж: <div>
+        <Badge text="Новое" variant="success" />
+        <Badge text="99+" variant="danger" size="large" />
+        <Badge text="Beta" variant="secondary" size="small" />
+    </div>
 };
 
-//Badge (Бейдж)
 //Chip (Метка)
 //Card (Карточка)
 //Dropdown / Menu
