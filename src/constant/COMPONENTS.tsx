@@ -7,7 +7,7 @@ import {
     Textarea,
     Tabs,
     Breadcrumbs,
-    Tooltip, Avatar, Badge
+    Tooltip, Avatar, Badge, Chip
 } from "@shared/components";
 import {PaginationDemo} from "@shared/components/pagination/PaginationDemo.tsx";
 import {AlertDemo} from "@shared/components/alert/AlertDemo.tsx";
@@ -63,10 +63,14 @@ export const COMPONENTS = {
         <Badge text="Новое" variant="success" />
         <Badge text="99+" variant="danger" size="large" />
         <Badge text="Beta" variant="secondary" size="small" />
+    </div>,
+    метка: <div>
+        <Chip label="React" color="primary" />
+        <Chip label="Удаляемая метка" color="danger" onDelete={() => alert("Удалено")} />
+        <Chip label="Кликабельная метка" onClick={() => alert("Клик!")} />
     </div>
 };
 
-//Chip (Метка)
 //Card (Карточка)
 //Dropdown / Menu
 //Spinner / Loader

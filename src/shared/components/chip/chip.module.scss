@@ -1,0 +1,57 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 16px;
+  padding: 0.25rem 0.75rem;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.25rem;
+  transition: background-color 0.3s;
+  cursor: default;
+  user-select: none;
+}
+
+.clickable {
+  cursor: pointer;
+  &:hover {
+    background-color: #d5d5d5;
+  }
+}
+
+.deleteButton {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.default {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.primary {
+  background-color: #1976d2;
+  color: white;
+}
+
+.secondary {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.danger {
+  background-color: #f44336;
+  color: white;
+}

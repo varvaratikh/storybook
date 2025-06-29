@@ -17,3 +17,4 @@ export { ButtonControlledProgressBar } from './progressBar/ButtonControlledProgr
 export { ColorChangingProgressBar } from './progressBar/ColorChangingProgressBar.tsx';
 export { Avatar } from './avatar/Avatar.tsx';
 export { Badge } from './badge/Badge.tsx';
+export { Chip } from './chip/Chip.tsx';
